@@ -30,6 +30,30 @@ include("inc/header.php"); ?>
         </span>
 
         </div>
+
+        <div class="media-details">
+
+            <h1><?php echo $item["title"];?></h1>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <td><?php echo $item["category"];?></td>
+                </tr>
+                <tr>
+                    <th>Genre</th>
+                    <td><?php echo $item["genre"];?></td>
+                </tr>
+                <tr>
+                    <th>Format</th>
+                    <td><?php echo $item["format"];?></td>
+                </tr>
+                <tr>
+                    <th>Year</th>
+                    <td><?php echo $item["year"];?></td>
+                </tr>
+            </table>
+        
+        </div>
     </div>
 
 
